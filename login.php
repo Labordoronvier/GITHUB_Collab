@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect "localhost", "root", "", "ITPC3_Sec3");
+$conn = mysqli_connect ("localhost", "root", "", "ITPC3_Sec3");
 if (1$conn) {
 die("Connection failed");
 }
